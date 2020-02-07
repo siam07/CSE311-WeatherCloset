@@ -6,7 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="photos/favicon.ico" />
 	<title>Weather Closet</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -43,7 +45,7 @@
 								<a class="nav-link" href="#contact">Contact</a>
 							</li>
 						</ul>
-						<button class="loginbtn">Login</button>
+						<a href="loginform.html" style="text-decoration: none" ><button class="loginbtn">Login</button></a>
 					</div>
 				</div>
 		
@@ -52,10 +54,10 @@
 			<script type="text/javascript" src="scripts/jquery.min.js"></script>
 			<script>
 				$(window).scroll(function(){
-					$('nav').toggleClass('scrolled',$(this).scrollTop() > 200);
+					$('nav').toggleClass('scrolled',$(this).scrollTop() > 100);
 				});
 				$(window).scroll(function(){
-					$('img').toggleClass('scrolled',$(this).scrollTop() > 200);
+					$('img').toggleClass('scrolled',$(this).scrollTop() > 100);
 				});
 
 
@@ -86,5 +88,64 @@
 		</div>	
 	</div>
 	<!--- Home End -->
+
+	<!--- About -->
+	<div id="about">
+		<div class="jumbotron">
+			<h3 class="heading">About</h3>
+			<div class="row">
+				<div class="col-md-4 text-center about">
+					<h4 class="heading">Something</h4>
+					<p>sdgdsgs dgd ghjkhWebsite is a hyper-media information storage system linking resources around the world. In website, browsers allow highlighted words or an icon which is called hyper links to display text, video, graphics and sound on a local computer screen. With the introduction of World Wide Web in 1989, the concept of websites has become more popular. On this web, anyone can create a home page, which millions of users can watch on their computers and respond.sbdgjkadgh skdgbshsdgsd ssgsdgsgd sghsghshsfh sdhsdh sd fhsd hsh sdgbkb sgdsg</p>
+				</div>
+				<div class="col-md-4 text-center about">
+					<h4 class="heading">Something</h4>
+					<p>sdgdsgs dgd ghjkhsbdgjkadgh sWebsite is a hyper-media information storage system linking resources around the world. In website, browsers allow highlighted words or an icon which is called hyper links to display text, video, graphics and sound on a local computer screen. With the introduction of World Wide Web in 1989, the concept of websites has become more popular. On this web, anyone can create a home page, which millions of users can watch on their computers and respond.kdsh sdhs dsh sdhsfhjs hsfjhsdhsshsh shs hsdhasdh gbshdgbkb sgdsg</p>
+				</div>
+				<div class="col-md-4 text-center about">
+					<h4 class="heading">Something</h4>
+					<p>sdgdsgs dgd ghjkhsbdgjkadgh skdWebsite is a hyper-media information storage system linking resources around the world. In website, browsers allow highlighted words or an icon which is called hyper links to display text, video, graphics and sound on a local computer screen. With the introduction of World Wide Web in 1989, the concept of websites has become more popular. On this web, anyone can create a home page, which millions of users can watch on their computers and respond.gshsdfhstj aajjg jazdjgdj ajsf bshdgbkb sgdsg</p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!--- About End -->
+
+	<!--- Contact -->
+	<div class="contact" id="contact">
+		<div class="container-fluid padding">
+			<h3 class="heading">Contacts</h3>
+
+			<div class="row no-padding">
+					<button class="button2"><img class="portfolio" src="photos/1.png"></button>				
+				
+					<button class="button2"><img class="portfolio" src="photos/2.png"></button>				
+				
+					<button class="button2"><img class="portfolio" src="photos/3.jpg"></button>				
+
+					<button class="button2"><img class="portfolio" src="photos/4.jpg"></button>				
+				
+			</div>
+		</div>
+		<div class="container-fluid footer">
+			<div class="footerlogo"><img src="photos/logo.png"></div>
+			<div class="row">
+				<div class="col-md-6 txt1">
+					<h1>Weather Closet</h1>
+					<p>Place, Dhaka-postalcode, Bangladesh<br><i class="fa fa-phone"></i> +880-0-00000000   |    <i class="fa fa-fax"></i> Fax: +880-0-00000000<br><i class="fa fa-envelope"></i> name@name.com</p>
+				</div>
+				<div class="col-md-6 txt2">
+					<p>Developed & Maintained by Siam'sCode, DHAKA<br>© 2020 Weather Closet. All rights reserved.</p>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+
+	<!--- scripts -->
+	<script src="scripts/jquery-3.3.1.slim.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
 </body>
 </html>
